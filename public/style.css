@@ -1,3 +1,41 @@
 body{
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    background: rgb(11, 123, 123);
+}
+
+.form h1{
+    font-family:'Courier New', Courier, monospace
+}
+
+.form input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form input::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form button{
+    padding: 10px;
+    background: #ec680a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 20px;
+}
+
+.form button:active{
+    background: #acacac;
 }

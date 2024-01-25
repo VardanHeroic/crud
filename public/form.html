@@ -8,11 +8,13 @@
 </head>
 <body>
 
-    <!-- <form action="/addName" method="post"> -->
-        <input type="text" oninput="send()" id="bublik" onkeydown="lol(this)" required name="name" placeholder="Please type your name"><br><br>
-        <input type="number" oninput="send()" name="age" placeholder="Please type your age"><br><br>
-        <input type="submit" >
-    <!-- </form> -->
-    <script src="script.js"></script>
+    <div class="form">
+        <h1>Form</h1>
+        <input type="text" name="name" placeholder="Please type your name"><br><br>
+        <input type="email"  name="email" placeholder="Please type your email"><br><br>
+        <input type="password"  name="password" placeholder="Please type your password"><br><br>
+        <button type="submit" onclick="send()" >Submit</button>
+    </div>
+    <script  src="script.js"></script>
 </body>
 </html>
