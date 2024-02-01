@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/updateData" method="post">
+        <h1>Form</h1>
+        <input type="text" name="title" placeholder="title" value="<%= obj.title %>"><br><br>
+        <input type="text"  name="description" placeholder="description" value="<%= obj.description %>"><br><br>
+        <input type="text"  name="thumbnail" placeholder="thumbnail" value="<%= obj.thumbnail %>"><br><br>
+        <input type="text" name="brand" id="" value="<%= obj.brand %>"><br><br>
+        <input type="number" name="price" id="" value="<%= obj.price %>"><br><br>
+    </form>
+</body>
+</html>
