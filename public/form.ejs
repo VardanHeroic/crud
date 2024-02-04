@@ -14,6 +14,7 @@
             <td>Brand</td>
             <td>Thumbnail</td>
             <td>Description</td>
+			<td>Price</td>
             <td>Update</td>
             <td>Delete</td>
         </tr>
@@ -24,6 +25,7 @@
             <td><%= brand %></td>
             <td><%= thumbnail %></td>
             <td><%= description %></td>
+			<td><%= price %></td>
             <td><a class="update" href="update/<%= _id %>">Update</a></td>
             <td><a class="delete" href="delete/<%= _id %>">Delete</a></td>
         </tr>
@@ -34,8 +36,8 @@
         <input type="text" name="title" placeholder="title"><br><br>
         <input type="text"  name="description" placeholder="description"><br><br>
         <input type="text"  name="thumbnail" placeholder="thumbnail"><br><br>
-        <input type="text" name="brand" id=""><br><br>
-        <input type="number" name="price" id=""><br><br>
+        <input type="text" name="brand" placeholder="brand" id=""><br><br>
+        <input type="number" name="price" placeholder="price" id=""><br><br>
 
         <button type="submit" onclick="send()"  >Submit</button>
     </div>

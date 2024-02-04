@@ -1,41 +1,87 @@
-body{
-    background-color: aqua;
-    /* display: flex;
+body {
+	background-color: aqua;
+	/* display: flex;
     justify-content: center;
     align-items: center; */
-    height: 100vh;
+	height: 100vh;
 }
 
-.form{
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
-    background: rgb(11, 123, 123);
+
+table {
+	background: rgb(11, 123, 123);
+	border-radius: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
 }
 
-.form h1{
-    font-family:'Courier New', Courier, monospace
+table a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	background: #000;
+	text-align: center;
+	border-radius: 10px;
 }
 
-.form input{
-    width: 400px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
+.delete{
+	background: red;
 }
 
-.form input::placeholder{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+th,
+td {
+	padding: 8px;
+	text-align: left;
 }
 
-.form button{
-    padding: 10px;
-    background: #ec680a;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: none;
-    border-radius: 20px;
+th {
+	background-color: #f2f2f2;
 }
 
-.form button:active{
-    background: #acacac;
+tr:nth-child(1) {
+	font-weight: 700;
+}
+
+
+caption {
+	caption-side: top;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.form {
+	border-radius: 20px;
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background: rgb(11, 123, 123);
+}
+
+.form h1 {
+	font-family: 'Courier New', Courier, monospace
+}
+
+.form input {
+	width: 400px;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+}
+
+.form input::placeholder {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form button {
+	padding: 10px;
+	background: #ec680a;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border: none;
+	border-radius: 20px;
+}
+
+.form button:active {
+	background: #acacac;
 }
